@@ -28,9 +28,9 @@ import {CompilationEnvironment} from '../compilation-env.js';
 
 import {GCCCompiler} from './gcc.js';
 
-export class GACCompiler extends GCCCompiler {
+export class GA68Compiler extends GCCCompiler {
     static override get key() {
-        return 'gac';
+        return 'ga68';
     }
 
     constructor(info: PreliminaryCompilerInfo, env: CompilationEnvironment) {
